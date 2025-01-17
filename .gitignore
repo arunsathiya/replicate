@@ -4,3 +4,7 @@ node_modules/
 .wp-env.override.json
 build/*.map
 *.log
+*.zip
+build/
+.yarn/
+.pnp.*
