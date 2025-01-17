@@ -1,8 +1,8 @@
 {
 	"name": "replicate",
-	"version": "0.2.0",
-	"description": "Example block scaffolded with Create Block tool.",
-	"author": "The WordPress Contributors",
+	"version": "0.1.0",
+	"description": "Integration with Replicate API for WordPress",
+	"author": "arun",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
@@ -14,8 +14,9 @@
 		"plugin-zip": "wp-scripts plugin-zip",
 		"start": "wp-scripts start"
 	},
+	"packageManager": "yarn@4.6.0",
 	"devDependencies": {
-		"@wordpress/scripts": "^30.6.0"
-	},
-	"packageManager": "yarn@4.6.0"
+		"@wordpress/scripts": "^30.9.0",
+		"webpack": "^5.97.1"
+	}
 }

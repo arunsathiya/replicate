@@ -3722,7 +3722,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wordpress/scripts@npm:^30.6.0":
+"@wordpress/scripts@npm:^30.9.0":
   version: 30.9.0
   resolution: "@wordpress/scripts@npm:30.9.0"
   dependencies:
@@ -11862,7 +11862,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "replicate@workspace:."
   dependencies:
-    "@wordpress/scripts": "npm:^30.6.0"
+    "@wordpress/scripts": "npm:^30.9.0"
+    webpack: "npm:^5.97.1"
   languageName: unknown
   linkType: soft
 
@@ -14050,7 +14051,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.97.0":
+"webpack@npm:^5.97.0, webpack@npm:^5.97.1":
   version: 5.97.1
   resolution: "webpack@npm:5.97.1"
   dependencies:

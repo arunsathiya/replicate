@@ -14,17 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Enable corepack
+        run: |
+          corepack enable
+          corepack prepare yarn@4.6.0 --activate
+
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22.9.0'
           cache: 'yarn'
 
       - name: Install dependencies
         run: yarn install
-
-      - name: Build
-        run: yarn build
 
       - name: Create plugin zip
         run: yarn plugin-zip
