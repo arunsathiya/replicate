@@ -27,7 +27,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn build
+        run: yarn build --verbose
 
       - name: Create plugin zip
         run: yarn plugin-zip
