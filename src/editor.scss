@@ -1,0 +1,39 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-replicate-replicate {
+    .components-panel {
+        border: 1px solid #e0e0e0;
+        margin-bottom: 20px;
+
+        .components-base-control {
+            margin-bottom: 16px;
+        }
+
+        .components-text-control__input {
+            width: 100%;
+        }
+
+        .components-button {
+            margin-top: 8px;
+        }
+    }
+
+    .generation-loading {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .generated-image {
+        margin-top: 20px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}
