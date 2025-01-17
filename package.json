@@ -15,7 +15,9 @@
 		"start": "wp-scripts start"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^30.6.0"
+		"@wordpress/scripts": "^30.9.0",
+		"webpack": "^5.97.1",
+		"webpack-cli": "^6.0.1"
 	},
 	"packageManager": "yarn@4.6.0"
 }
