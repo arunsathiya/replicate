@@ -41,7 +41,7 @@ export default function Edit({ clientId }) {
             const data = await response.json();
             console.log('Response data:', data);
 
-            if (data.output && data.output[0]) {
+            if (data.output?.[0]) {
                 console.log('Image URL:', data.output[0]);
 
                 // Get current block's parent and position
